@@ -1,4 +1,8 @@
 {
+	"editor.rulers": [
+		{ "column": 80, "color": "#ffffff10" },
+		{ "column": 120, "color": "#6666668e" }
+	],
 	"tslint.alwaysShowRuleFailuresAsWarnings": true,
 	"editor.formatOnSave": true,
 	"editor.autoIndent": "full",
