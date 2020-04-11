@@ -1,4 +1,4 @@
-# Generic VS Code workspace for Typescipt
+# Generic VS Code workspace for Typescript
 
 > Check out the other branches too
 
@@ -9,7 +9,12 @@ Add as a git submodule:
 > While in the root of the project repository
 
 ```sh
+rm -rf .vscode # Remove existing setup
 git submodule add https://github.com/AlexAegis/.vscode
+cd .vscode
+git switch typescript
+cd ..
+git commit -am "Added VS Code workspace submodule"
 ```
 
 ## When not to use
