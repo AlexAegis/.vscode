@@ -2,38 +2,56 @@
 	"tslint.alwaysShowRuleFailuresAsWarnings": true,
 	"editor.formatOnSave": true,
 	"editor.autoIndent": "full",
-	"editor.quickSuggestions": true,
+	"editor.tabCompletion": "off",
+	"editor.quickSuggestionsDelay": 0,
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": false
+	},
+	"editor.wordBasedSuggestions": true,
+	"editor.suggest.localityBonus": true,
+	"editor.snippetSuggestions": "bottom",
 	"editor.tabSize": 4,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true
+	},
+	"editor.fontLigatures": true,
+	"editor.mouseWheelZoom": true,
 	"material-icon-theme.folders.associations": {
+		// This option doesn't work here, copy it and the next entry into your user settings if you wish to have folder icon associations
 		"module": "font",
+		"modules": "font",
 		"component": "components",
 		"doc": "markdown",
 		"animation": "delta",
 		"guard": "ngrx-effects",
 		"directive": "ngrx-actions",
+		"directives": "ngrx-actions",
 		"interceptor": "middleware",
 		"validator": "coverage",
 		"e2e": "test",
-		"target": "dist",
-		"rust": "delta",
-		"scope": "delta",
-		"benches": "benchmark"
+		"store": "Redux-store",
+		"actions": "ngrx-actions",
+		"action": "ngrx-actions",
+		"effects": "Ngrx-effects",
+		"effect": "Ngrx-effects",
+		"reducers": "ngrx-reducer",
+		"reducer": "ngrx-reducer"
 	},
 	"material-icon-theme.files.associations": {
-		"*.animation.ts": "purescript",
-		".mocharc": "mocha"
+		"*.animation.ts": "purescript"
 	},
-	"typescript.tsdk": "node_modules\\typescript\\lib",
-	"mochaExplorer.optsFile": "./mocha.opts",
-	"mochaExplorer.files": "src/**/*.spec.ts",
-	"mochaExplorer.mochaPath": "node_modules/mocha",
-	"editor.codeActionsOnSave": {
-		"source.fixAll": true
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		"node_modules": true,
+		"coverage": true
 	},
-	"editor.mouseWheelZoom": true,
-	"files.associations": { ".mocharc": "json" },
-	"editor.semanticHighlighting.enabled": true,
-	"debug.javascript.usePreview": true,
+	"files.associations": {
+		"*.json": "jsonc"
+	},
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true
 }
