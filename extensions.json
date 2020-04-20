@@ -1,18 +1,18 @@
 {
-  "recommendations": [
-    "editorconfig.editorconfig",
-    "eamodio.gitlens",
-    "mhutchie.git-graph",
-    "Gruntfuggly.todo-tree",
-    "aaron-bond.better-comments",
-    "esbenp.prettier-vscode",
-    "pkief.material-icon-theme",
-    "DavidAnson.vscode-markdownlint",
-    "npxms.hide-gitignored",
-    "equinusocio.vsc-community-material-theme",
-    "pkief.material-icon-theme",
-    "justusadam.language-haskell",
-    "alanz.vscode-hie-server",
-    "hoovercj.haskell-linter"
-  ]
+	"recommendations": [
+		"editorconfig.editorconfig",
+		"eamodio.gitlens",
+		"mhutchie.git-graph",
+		"Gruntfuggly.todo-tree",
+		"aaron-bond.better-comments",
+		"esbenp.prettier-vscode",
+		"pkief.material-icon-theme",
+		"DavidAnson.vscode-markdownlint",
+		"npxms.hide-gitignored",
+		"equinusocio.vsc-community-material-theme",
+		"pkief.material-icon-theme",
+		"justusadam.language-haskell",
+		"alanz.vscode-hie-server",
+		"hoovercj.haskell-linter"
+	]
 }
