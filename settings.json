@@ -3,41 +3,15 @@
 		{ "column": 80, "color": "#ffffff10" },
 		{ "column": 120, "color": "#6666668e" }
 	],
-	"tslint.alwaysShowRuleFailuresAsWarnings": true,
 	"editor.formatOnSave": true,
 	"editor.autoIndent": "full",
 	"editor.quickSuggestions": true,
 	"editor.tabSize": 4,
-	"material-icon-theme.folders.associations": {
-		"module": "font",
-		"component": "components",
-		"doc": "markdown",
-		"animation": "delta",
-		"guard": "ngrx-effects",
-		"directive": "ngrx-actions",
-		"interceptor": "middleware",
-		"validator": "coverage",
-		"e2e": "test",
-		"target": "dist",
-		"rust": "delta",
-		"scope": "delta",
-		"benches": "benchmark"
-	},
-	"material-icon-theme.files.associations": {
-		"*.animation.ts": "purescript",
-		".mocharc": "mocha"
-	},
-	"typescript.tsdk": "node_modules\\typescript\\lib",
-	"mochaExplorer.optsFile": "./mocha.opts",
-	"mochaExplorer.files": "src/**/*.spec.ts",
-	"mochaExplorer.mochaPath": "node_modules/mocha",
 	"editor.codeActionsOnSave": {
 		"source.fixAll": true
 	},
 	"editor.mouseWheelZoom": true,
-	"files.associations": { ".mocharc": "json" },
 	"editor.semanticHighlighting.enabled": true,
-	"debug.javascript.usePreview": true,
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true
 }

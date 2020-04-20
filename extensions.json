@@ -1,13 +1,19 @@
 {
 	"recommendations": [
-		"ms-vscode.vscode-typescript-tslint-plugin",
+		"editorconfig.editorconfig",
+		"eamodio.gitlens",
+		"mhutchie.git-graph",
+		"Gruntfuggly.todo-tree",
+		"aaron-bond.better-comments",
 		"esbenp.prettier-vscode",
 		"pkief.material-icon-theme",
-		"robinbentley.sass-indented",
-		"msjsdiag.debugger-for-chrome",
-		"wix.vscode-import-cost",
-		"npxms.hide-gitignored",
-		"msjsdiag.debugger-for-chrome",
-		"hbenl.vscode-mocha-test-adapter"
+		"DavidAnson.vscode-markdownlint",
+		"equinusocio.vsc-community-material-theme",
+		"mads-hartmann.bash-ide-vscode",
+		"rogalmic.bash-debug",
+		"timonwong.shellcheck",
+		"bmalehorn.vscode-fish",
+		"coolbear.systemd-unit-file",
+		"dunstontc.viml"
 	]
 }
