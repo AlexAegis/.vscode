@@ -13,6 +13,7 @@
 		"pkief.material-icon-theme",
 		"serayuzgur.crates",
 		"rust-lang.rust",
-		"ms-vscode.cpptools"
+		"ms-vscode.cpptools",
+		"vadimcn.vscode-lldb"
 	]
 }

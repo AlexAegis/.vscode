@@ -5,9 +5,19 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"type": "cppvsdbg",
+			"type": "lldb",
 			"request": "launch",
 			"name": "Current Rust Cargo",
+			"program": "cargo",
+			"args": ["run", "--", "--workspace", "${workspaceFolder}"],
+			"cwd": "${fileDirname}",
+			"preLaunchTask": "cargo build",
+			"internalConsoleOptions": "openOnSessionStart" // Focus the Debug Console on run
+		},
+		{
+			"type": "cppvsdbg",
+			"request": "launch",
+			"name": "Current Rust Cargo (Windows)",
 			"program": "cargo",
 			"args": ["run", "--", "--workspace", "${workspaceFolder}"],
 			"cwd": "${fileDirname}",
