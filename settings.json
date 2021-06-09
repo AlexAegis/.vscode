@@ -10,16 +10,19 @@
 	"editor.suggest.localityBonus": true,
 	"editor.snippetSuggestions": "bottom",
 	"editor.quickSuggestionsDelay": 0,
-	"files.exclude": {
-		"**/.git": true,
-		"**/.DS_Store": true
-	},
 	"editor.rulers": [
 		{ "column": 80, "color": "#ffffff10" },
 		{ "column": 120, "color": "#6666668e" }
 	],
 	"editor.codeActionsOnSave": {
 		"source.fixAll": true
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true
+	},
+	"files.associations": {
+		"vimrc": "viml"
 	},
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true
